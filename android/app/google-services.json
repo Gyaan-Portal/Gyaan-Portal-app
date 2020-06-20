@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "114394093624",
+    "firebase_url": "https://gyaanportal-app.firebaseio.com",
+    "project_id": "gyaanportal-app",
+    "storage_bucket": "gyaanportal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114394093624:android:3ab963d6eba6d30aa22ecd",
+        "android_client_info": {
+          "package_name": "com.example.kreyative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114394093624-ijqcrk1k5mre8fuh7javoecu0ee50v32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqY1onwd_da99E1MpvXUJFALNEVwr8cnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114394093624-ijqcrk1k5mre8fuh7javoecu0ee50v32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
