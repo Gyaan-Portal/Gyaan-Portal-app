@@ -31,7 +31,7 @@ import 'package:hexcolor/hexcolor.dart';
 
 import 'package:carousel_slider/carousel_slider.dart';
 //import './intern.dart';
-//import './doubt.dart';
+import './doubt.dart';
 //import './internship.dart';
 import 'package:fab_circular_menu/fab_circular_menu.dart';
 import './try.dart';
@@ -2373,7 +2373,7 @@ class Homepagenew extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Homepagenew()));
+                    MaterialPageRoute(builder: (context) => DoubtDemo()));
                 // Update the state of the app
                 // ...
                 // Then close the drawer
