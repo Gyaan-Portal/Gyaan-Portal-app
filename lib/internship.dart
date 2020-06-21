@@ -13,7 +13,7 @@ class InternDemo extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: MyHomePage(title: '                        Notes'),
+      home: MyHomePage(title: '                        Internships'),
     );
   }
 }

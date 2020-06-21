@@ -147,7 +147,7 @@ class Page2Widget extends StatelessWidget {
                     Image.asset('assets/dusra.png', width: 300, height: 400),
                     Container(
                         alignment: Alignment.center,
-                        child: Text('Live classes and video lecture',
+                        child: Text('Live classes and video lectures',
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
                                   color: Colors.black,
