@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:kreyative/feedback.dart';
+import 'package:kreyative/feedback.dart';
 
 import 'package:kreyative/try.dart';
 import 'package:kreyative/videoslider.dart';
@@ -2584,6 +2584,32 @@ class Homepagenew extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => InternDemo()));
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+              },
+            ),
+            Divider(
+              thickness: 2,
+              height: 5,
+              indent: 20,
+              endIndent: 10,
+            ),
+            ListTile(
+              title: Text('Feedback', style: TextStyle(fontSize: 24)),
+              contentPadding: EdgeInsets.only(left: 17, top: 8),
+              leading: Icon(
+                Icons.feedback,
+                color: Hexcolor('#6002EE'),
+                size: 37,
+              ),
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                size: 30,
+              ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => MyAppFeedback()));
                 // Update the state of the app
                 // ...
                 // Then close the drawer
