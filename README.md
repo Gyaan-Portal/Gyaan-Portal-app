@@ -47,7 +47,7 @@ samples, guidance on mobile development, and a full API reference.
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/Gyaan-Portal/Gyaan-Portal-App.git
+https://github.com/H-Jaipur/Gyaan-Portal-app.git
 ```
 
 **Step 2:**
