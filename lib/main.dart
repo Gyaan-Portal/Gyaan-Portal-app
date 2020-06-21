@@ -396,20 +396,27 @@ class _State extends State<MyApp> {
                                 fontWeight: FontWeight.bold,
                                 fontSize: 20),
                           )),
-                      onPressed: () async {
-                        FirebaseUser firebaseUser;
-                        firebaseAuth
-                            .signInWithEmailAndPassword(
-                                email: 'demo@gmail.com', password: 'demo123')
-                            .then((authResult) {
-                          setState(() {
-                            firebaseUser = authResult.user;
-                          });
-                          print(firebaseUser.email);
-                        });
-
-                        print(nameController.text);
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Homepagenew()),
+                        );
                       },
+//                      async {
+//                        FirebaseUser firebaseUser;
+//                        firebaseAuth
+//                            .signInWithEmailAndPassword(
+//                                email: 'demo@gmail.com', password: 'demo123')
+//                            .then((authResult) {
+//                          setState(() {
+//                            firebaseUser = authResult.user;
+//                          });
+//                          print(firebaseUser.email);
+//                        });
+//
+//                        print(nameController.text);
+//                      },
                     )),
                 Container(
                     padding: EdgeInsets.only(top: 20),

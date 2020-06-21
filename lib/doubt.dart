@@ -60,8 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    const String toLaunch =
-        'https://gyaanportal4free.s3.amazonaws.com/Notes-OS.pdf';
+    const String toLaunch = 'https://discussionforumgeny.netlify.app/';
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
