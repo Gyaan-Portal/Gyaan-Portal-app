@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:lottie/lottie.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-class InternDemo extends StatelessWidget {
+class WebDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -61,7 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    const String toLaunch = 'https://dare2compete.com/e/internships/all';
+    const String toLaunch =
+        'https://gyaanportal4free.s3.amazonaws.com/Notes-OS.pdf';
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -71,25 +72,34 @@ class _MyHomePageState extends State<MyHomePage> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset('assets/scholar.png', width: 300, height: 300),
-              Container(
-                  alignment: Alignment.center,
-                  padding: EdgeInsets.all(20),
-                  child: Text(
-                    'Looking for internships?',
-                    style: TextStyle(
-                        color: Colors.black87,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 28),
-                  )),
+              Lottie.asset('assets/9810-notes.json', width: 300, height: 300),
               RaisedButton(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18.0),
+                ),
                 color: Hexcolor('#6002EE'),
                 onPressed: () => setState(() {
                   _launched = _launchInBrowser(toLaunch);
                 }),
                 child: const Text(
-                  'Click here',
-                  style: TextStyle(color: Colors.white),
+                  'Click here for notes: Course 1',
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              RaisedButton(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18.0),
+                ),
+                color: Hexcolor('#6002EE'),
+                onPressed: () => setState(() {
+                  _launched = _launchInBrowser(toLaunch);
+                }),
+                child: const Text(
+                  'Click here for notes: Course 2',
+                  style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
               ),
               const Padding(padding: EdgeInsets.all(16.0)),
