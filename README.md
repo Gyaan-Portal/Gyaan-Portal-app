@@ -1,7 +1,7 @@
 # Gyaan-Portal-App  :iphone:
 <p align="center">
   <a href="https://https://github.com/Gyaan-Portal/Gyaan-Portal-App">
-    <img src="https://avatars3.githubusercontent.com/u/67199434?s=400&u=4d08b5b1286b0994f02aa5fbf5c738e8fb723d9e&v=4" alt="Logo" width="150" height="150">
+    <img src="https://i.ibb.co/YfGPPJC/Whats-App-Image-2020-07-20-at-13-25-53.jpg" alt="Logo" width="150" height="150">
   </a>
   </p>
 
